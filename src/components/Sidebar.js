@@ -16,7 +16,7 @@ const Sidebar = () => {
     <SidebarContainer>
       <aside className={`sidebar ${isSidebarOpen && 'show-sidebar'}`}>
         <div className="sidebar-header">
-          <img src={logo} alt="comfy sloth" />
+          <img src={logo} alt="Marst Furniture" />
           <button type="button" className="close-btn" onClick={closeSidebar}>
             <FaTimes />
           </button>
@@ -52,6 +52,9 @@ const SidebarContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    img {
+      width: 200px;
+    }
   }
   .close-btn {
     font-size: 2rem;
