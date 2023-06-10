@@ -46,7 +46,7 @@ const AddToCart = ({ product }) => {
       </div>
       <div className="btn-container">
         <AmountButtons amount={amount} increase={increase} decrease={decrease} />
-        <Link to="/cart" className="btn" onClick={() => addToCart(id, mainColor, amount, product)}>
+        <Link to="/cart" className="btn add-to-cart" onClick={() => addToCart(id, mainColor, amount, product)}>
           add to cart
         </Link>
       </div>
@@ -97,6 +97,9 @@ const Wrapper = styled.section`
   .btn {
     margin-top: 1rem;
     width: 140px;
+  }
+  .add-to-cart {
+    text-align: center;
   }
 `;
 export default AddToCart;

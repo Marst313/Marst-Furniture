@@ -1,16 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import heroBcg from '../assets/hero-bcg.jpeg';
-import heroBcg2 from '../assets/hero-bcg-2.jpeg';
+import heroBcg from '../assets/hero-bcg.jpg';
+import heroBcg2 from '../assets/hero-bcg-2.jpg';
 
 const Hero = () => {
   return (
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          design your <br />
-          comfort zone
+          choose your <br />
+          perfect fashion
         </h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum quos repellat iste omnis quaerat minima dolorum nesciunt cupiditate voluptatibus nemo odio, non quasi! Cupiditate error quae odio maiores quidem.</p>
         <Link to="/products" className="btn hero-btn">
@@ -18,8 +18,8 @@ const Hero = () => {
         </Link>
       </article>
       <article className="img-container">
-        <img src={heroBcg} alt="nice table" className="main-img" />
-        <img src={heroBcg2} alt="person working" className="accent-img" />
+        <img src={heroBcg} alt="nice list cloth" className="main-img" />
+        <img src={heroBcg2} alt="list shirt" className="accent-img" />
       </article>
     </Wrapper>
   );

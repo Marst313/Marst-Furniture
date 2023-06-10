@@ -8,8 +8,8 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            costum furniture <br />
-            built only for you
+            elegant fashion <br />
+            always suit on you
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium, repudiandae reprehenderit nulla corrupti atque. Inventore quod labore deleniti vel, quos praesentium ratione atque? Iure soluta fugit velit nobis. Libero.
